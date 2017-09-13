@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="product">
+    <view wx:for="{{products}}" wx:key="{{index}}" class="box">
+      <image src="{{item.image}}" mode="scaleToFill" binderror="" bindload="" ></image>
+      <view class="desc">
+        <view class="desc-top">
+          <text>{{item.title}}</text>
+          <text class="look-desc" wx:if="{{item.click === false}}" catchtap="tapLook" data-id="{{index}}">查看详情</text>
+          <text class="look-desc" wx:if="{{item.click === true}}" catchtap="tapUnLook" data-id="{{index}}">收起详情</text>
+        </view>
+        <view class="desc-content" wx:if="{{item.click === true}}">
+          <rich-text nodes="{{item.contact}}" class="desc-contact"></rich-text>
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <view class="footer">
+    <view class="menu" catchtap="tapToAboutAs">
+      <image src="{{aboutas}}" mode="scaleToFill" binderror="" bindload="" class="icon"/>关于我们
+    </view>
+    <view class="menu on">
+      <image src="{{producton}}" mode="scaleToFill" binderror="" bindload="" class="icon"/>产品展示
+    </view>
+  </view>
+</view>

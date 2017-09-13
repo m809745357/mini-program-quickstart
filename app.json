@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/product/product"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#292a2e",
+    "navigationBarTitleText": "宏宇卷帘厂",
+    "navigationBarTextStyle":"white"
+  }
+}

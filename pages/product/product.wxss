@@ -1,0 +1,47 @@
+.box {
+  margin: 23rpx 22rpx 0 22rpx;
+  width: calc(100vw - 44rpx);
+  margin-bottom:-85rpx;
+}
+.box image {
+  width: calc(100vw - 44rpx);
+  height: 328rpx;
+}
+.product {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.desc {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  top: -85rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 34rpx;
+  color: #fff;
+}
+.desc-top {
+  height: 76rpx;
+  display: flex;
+  width: calc(100vw - 98rpx);
+  justify-content: space-between;
+  align-items: center;
+}
+.look-desc {
+  font-size: 22rpx;
+}
+.desc-content{
+  font-size: 22rpx;
+  width: calc(100vw - 98rpx);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.desc-contact {
+  text-indent:44rpx;
+  margin-left: 22rpx;
+}

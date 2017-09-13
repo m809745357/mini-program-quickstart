@@ -1,0 +1,17 @@
+/**index.wxss**/
+.bg-top {
+  margin-top: 88rpx;
+  margin-left: 53rpx;
+  margin-right: 53rpx;
+  width: calc(100vw - 106rpx);
+  height: 381rpx;
+}
+.contact {
+  text-indent:46rpx;
+  font-size: 23rpx;
+  font-weight: bold;
+  color: #fff;
+  margin: 53rpx 53rpx 0 53rpx;
+  height: 500rpx;
+  overflow: scroll;
+}

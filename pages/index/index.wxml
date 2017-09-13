@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="{{bg}}" mode="aspectFill"  binderror="" bindload="" class="bg"></image>
+  <view class="bg content">
+    <image src="{{bgTop}}" mode="scaleToFill" binderror="" bindload="" class="bg-top"></image>
+    <rich-text nodes="{{contact}}" class="contact">
+    </rich-text>
+  </view>
+  <view class="footer">
+    <view class="menu on">
+      <image src="{{aboutason}}" mode="scaleToFill" binderror="" bindload="" class="icon"/>关于我们
+    </view>
+    <view class="menu" catchtap="tapToProducts">
+      <image src="{{product}}" mode="scaleToFill" binderror="" bindload="" class="icon"/>产品展示
+    </view>
+  </view>
+</view>
